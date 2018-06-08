@@ -1,0 +1,10 @@
+topic exchange
+
+# 匹配一个或多个
+* 匹配一个
+
+示例: consumer1 routingKey为info.*
+      consumer2 routingKey为info.#
+
+发送 info.1、info.11、info.111……时,两个消费者都能获取到消息
+发送 info.1.2、info.11.22、info.111.22时,仅consumer2能获取到消息

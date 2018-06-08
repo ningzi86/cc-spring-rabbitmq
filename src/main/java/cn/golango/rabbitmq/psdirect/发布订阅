@@ -1,0 +1,4 @@
+
+想要支持routingKey必须设置交换机类型为direct
+
+direct处理路由键

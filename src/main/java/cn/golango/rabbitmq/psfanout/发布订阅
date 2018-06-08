@@ -1,0 +1,7 @@
+
+四种类型
+direct，topic，fanout，header。
+
+生产者 --> 交换机  --> 队列(1,2,3……) --> 消费者
+
+fanout 不处理路由键
